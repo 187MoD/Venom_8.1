@@ -1,0 +1,30 @@
+#             187~Mod
+#            Venom_8.1
+# ***********Changelog***********
+#          
+# Beta 1.0
+#
+*Initial Release (With Huge Help To Lord Boeffla & SunilPaulMatthew)
+*Compiled with Linaro 7.2.1 toolchain (thanks to ZaneZam & SunilPaulMathew)
+*Updated to latest LineageOS/Boeffla Sources as of 06.24.18
+*Enable OC to 2995:
+  -DISCLAIMER: (You Must Adjust Voltages for you OWN specific device on higher OC steps)
+*ZZmoove: adjustment to acommodate Overclocking (Thanks to Legitsu)
+*Enable 268 mhz underclock (Thanks to SunilPaulMatthew)
+*Tweak bandwith on higher OC steps (Thanks to ktoonsz)
+*Tweak deadline: Allow 0ms deadline latency, increase the read speed
+*Set audience sleep delay to 0 to fix delay upon making phone calls
+*Async I/O latency to a ssd greatly increased (34% gain,kleikamp & Ktoonsz)
+*Fix possible memory leak with sysfs when stats table are freed
+*Bump up Max Voltage (Adjusted for higher OC)
+*Adjust Dirty Writeback For IO Boost
+*Increased VM_MAX_READAHEAD to 512
+*Optimize Kernel Samepage Merging
+*QuickWakeup (Thanks CrazyGamer)
+*PowerSuspend  (Thanks Faux123)
+*Enable Cortex_A15 Optimization
+*Add Missing Graphite Define
+*Ktoonsz Slimbus Overclock
+*Runtime_Compcache Enabled
+*Ktoonsz VFP Tweaks
+
