@@ -87,20 +87,20 @@ if [ "lov_presets" == "$1" ]; then
 	echo "Power extreme~"
 	echo "Gov: zzmoove / performance"
 	echo "^Sched: row"
-	echo "^CPU: 2841 / no uv"
-	echo "^GPU: 389-578;"
+	echo "^CPU: 2995 / no uv"
+	echo "^GPU: 389-657;"
 	
 	echo "Power~"
 	echo "Gov: ondemand / standard"
 	echo "^Sched: row"
 	echo "^CPU: 2611 / no uv"
-	echo "^GPU: 320-578;"
+	echo "^GPU: 320-657;"
 	
 	echo "Standard~"
 	echo "Gov: interactive / standard"
 	echo "^Sched: row"
 	echo "^CPU: 2457 / no uv"
-	echo "^GPU: 200-578;"
+	echo "^GPU: 200-657;"
 	
 	echo "Battery friendly~"
 	echo "Gov: interactive / standard"
@@ -127,7 +127,7 @@ if [ "conf_presets" == "$1" ]; then
 		# gov, gov prof, sched int, sched ext, cpu max, cpu uv, gpu freq, gpu uv
 		echo "zzmoove;zzmoove - performance;"
 		echo "row;row;"
-		echo "2841600;None;"
+		echo "2995200;None;"
 		echo "2,0;None"
 	fi
 	if [ "Power" ==  "$2" ]; then
