@@ -1152,6 +1152,8 @@ if [ "apply_ext4_tweaks" == "$1" ]; then
 		busybox sync
 		busybox mount -o remount,commit=20,noatime $DATA_DEVICE /data
 		busybox sync
+        busybox mount -o remount,commit=20,noatime $SYSTEM_DEVICE /system
+		busybox sync
 	fi
 
 	if [ "0" == "$2" ]; then
@@ -1159,6 +1161,8 @@ if [ "apply_ext4_tweaks" == "$1" ]; then
 		busybox mount -o remount,commit=0,noatime $CACHE_DEVICE /cache
 		busybox sync
 		busybox mount -o remount,commit=0,noatime $DATA_DEVICE /data
+		busybox sync
+        busybox mount -o remount,commit=0,noatime $SYSTEM_DEVICE /system
 		busybox sync
 	fi
 	exit 0
