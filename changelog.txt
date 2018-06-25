@@ -36,3 +36,17 @@
 *KazuDante Dcache Tweak
 *Fbs's Low Memory Killer
 *Some Other Stuff I'm Forgetting
+#
+# Beta 1.2
+#
+*Fix QuickWakeup
+*Disable Swap Readahead
+*Add System Mountpoint Tweak
+*Increase Maximum Swappiness
+*Revert To AOSP lowmemmorykiller
+*Add Kernel mode neon (ShinySide)
+*Disable Direct Reclaim File Pages
+*Fix Charging issue on Kltekdi (hopefully)
+*Enable Unaligned Capability For ARM (CrazyGamerGR)
+
+
