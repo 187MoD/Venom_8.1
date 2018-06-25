@@ -27,4 +27,12 @@
 *Ktoonsz Slimbus Overclock
 *Runtime_Compcache Enabled
 *Ktoonsz VFP Tweaks
-
+#
+# Beta 1.1
+#
+*Re-enable GPU Overclock
+*Enable Frontswap
+*Enable Vnswap
+*KazuDante Dcache Tweak
+*Fbs's Low Memory Killer
+*Some Other Stuff I'm Forgetting
