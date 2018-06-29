@@ -21,7 +21,7 @@ file_getprop() { grep "^$2=" "$1" | cut -d= -f2; }
 if [ ! "$(getprop 2>/dev/null)" ]; then
   getprop() {
     local propval="$(file_getprop /default.prop $1 2>/dev/null)";
-    test "$propval" || local propval="$(file_getprop /system/build.prop $1 2>/dev/null)";
+    test "$propval" || local propval="$(file_getprop $root/system/build.prop $1 2>/dev/null)";
     test "$propval" && echo "$propval" || echo "";
   }
 fi;
@@ -68,10 +68,10 @@ if [ -f /tmp/anykernel/banner ]; then
   ui_print " ";
 fi;
 
-ui_print "Boeffla-Kernel (unofficial) for Samsung Galaxy S5";
-ui_print " ";
-ui_print "...(c) sunilpaulmathew@xda-developers.com...";
-ui_print " ";
+ui_print "      Boeffla-Venom-Kernel";
+ui_print "                By ";
+ui_print " The~Skater~187@xda-developers.com   ";
+ui_print "           (c) 187MoD           ";
 
 umount /system 2>/dev/null;
 umount /vendor 2>/dev/null;
@@ -116,7 +116,7 @@ if [ "$(file_getprop /tmp/anykernel/anykernel.sh do.initd)" == 1 ]; then
 	mount -o remount,ro -t auto /system;
 fi;
 
-ui_print "* Installing kernel...";
+ui_print ".*.Injecting Venom.*.";
 ui_print " ";
 
 for i in $($bb --list); do
@@ -171,4 +171,6 @@ umount /vendor 2>/dev/null;
 umount /data 2>/dev/null;
 ui_print " ";
 ui_print " ";
-ui_print "Done!";
+ui_print "      Install Complete";
+ui_print " ";
+ui_print "System Will Now Self Destruct";
