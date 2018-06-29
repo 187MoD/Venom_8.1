@@ -1152,7 +1152,7 @@ if [ "apply_ext4_tweaks" == "$1" ]; then
 		busybox sync
 		busybox mount -o remount,commit=20,noatime $DATA_DEVICE /data
 		busybox sync
-        busybox mount -o remount,commit=20,noatime $SYSTEM_DEVICE /system
+        	busybox mount -o remount,commit=20,noatime $SYSTEM_DEVICE /system
 		busybox sync
 	fi
 
@@ -1162,7 +1162,7 @@ if [ "apply_ext4_tweaks" == "$1" ]; then
 		busybox sync
 		busybox mount -o remount,commit=0,noatime $DATA_DEVICE /data
 		busybox sync
-        busybox mount -o remount,commit=0,noatime $SYSTEM_DEVICE /system
+        	busybox mount -o remount,commit=0,noatime $SYSTEM_DEVICE /system
 		busybox sync
 	fi
 	exit 0
