@@ -128,21 +128,21 @@ if [ "conf_presets" == "$1" ]; then
 		echo "zzmoove;zzmoove - performance;"
 		echo "row;row;"
 		echo "2995200;None;"
-		echo "4,0;None"
+		echo "2,0;None"
 	fi
 	if [ "Power" ==  "$2" ]; then
 		# gov, gov prof, sched int, sched ext, cpu max, cpu uv, gpu freq, gpu uv
 		echo "ondemand;ondemand - standard;"
 		echo "row;row;"
 		echo "2611200;None;"
-		echo "5,0;None"
+		echo "3,0;None"
 	fi
 	if [ "Standard" ==  "$2" ]; then
 		# gov, gov prof, sched int, sched ext, cpu max, cpu uv, gpu freq, gpu uv
 		echo "interactive;standard;"
 		echo "row;row;"
 		echo "2457600;None;"
-		echo "6,1;None"
+		echo "5,0;None"
 	fi
 	if [ "Battery friendly" ==  "$2" ]; then
 		# gov, gov prof, sched int, sched ext, cpu max, cpu uv, gpu freq, gpu uv
