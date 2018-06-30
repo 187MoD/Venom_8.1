@@ -55,6 +55,7 @@ chmod 775 $ramdisk/res
 chmod -R 755 $ramdisk/res/bc
 chmod -R 755 $ramdisk/res/misc
 
+
 # ramdisk changes
 # ... none
 
