@@ -68,10 +68,10 @@ if [ -f /tmp/anykernel/banner ]; then
   ui_print " ";
 fi;
 
-ui_print "*******Boeffla-Venom-Kernel*******";
-ui_print "                By                ";
-ui_print " The~Skater~187@xda-developers.com";
-ui_print "***********(c) 187MoD*************";
+ui_print "*******Boeffla-Venom-Kernel********";
+ui_print "                By                 ";
+ui_print " The~Skater~187@xda-developers.com ";
+ui_print "************(c) 187MoD*************";
 
 umount /system 2>/dev/null;
 umount /vendor 2>/dev/null;
