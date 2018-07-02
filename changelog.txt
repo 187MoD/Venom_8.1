@@ -53,8 +53,18 @@
 #
 # Beta 1.3
 #
-*Update min-default adreno frequency to be 200 MHz (kholk)
 *Fix memory entry leak when calling Adreno Convertaddr (Shubhraprakash Das)
-*LowMemoryKiller Tweaks
+*Kltekdi: Enable Correct Charger (should fix charging issue for good)
+*Update min-default adreno frequency to be 200 MHz (kholk)
 *Change clock rates to 19.2 MHz (Faux123/Qualcomm)
-*Kltekdi: Enable Correct Charger
+*Applied some new compiler optimizations
+*LowMemoryKiller Tweaks
+*Tweaks to Slimbus OC 
+#
+#
+#
+
+# All Changes
+# Signed Off
+# By
+# The~Skater~187
