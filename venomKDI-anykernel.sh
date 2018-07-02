@@ -13,7 +13,7 @@
 # Parameters to be configured manually
 #######################################
 
-BOEFFLA_VERSION="-beta1.3_kltekdi*Los.15.1"
+BOEFFLA_VERSION="-beta1.4_kltekdi*Los.15.1"
 
 TOOLCHAIN="/home/skater187/toolchains/Linaro-7.x/bin/arm-linaro-linux-androideabi-"
 ARCHITECTURE=arm
