@@ -61,8 +61,13 @@
 #
 *Fix memory entry leak when calling Adreno Convertaddr (Shubhraprakash Das)
 *Change clock rates to 19.2 MHz (Faux123/Qualcomm)
+*Optimize Shec/Fair a bit (Faux123)
 *Applied some new compiler optimizations
-*Tweaks to Slimbus OC
+*Tweaks to Slimbus OC (CrazyGamerGR)
+*Zswap: Uses LZ4 now (if available)
+*Added support for LZ4-compressed kernel 
+*Fix memory leak in Mass Storage
+*Numerous oom_kill tweaks
 #
 #
 #
